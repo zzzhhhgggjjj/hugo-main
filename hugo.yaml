@@ -2,7 +2,7 @@ baseurl: https://hugo.594688.xyz
 languageCode: zh-cn
 theme: hugo-theme-stack
 title: Example Site
-copyright: zhao
+copyright: zhao的个人网站
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -15,11 +15,11 @@ hasCJKLanguage: true
 languages:
     zh-cn:
         languageName: 中文
-        title: 演示站点
+        title: Zhao的个人网站
         weight: 2
         params:
             sidebar:
-                subtitle: 演示说明
+                subtitle: 欢迎来到我的网站
  
 services:
     # Change it to your Disqus shortname before using
@@ -53,7 +53,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: 欢迎
+        subtitle: 欢迎来到我的网站
         avatar:
             enabled: true
             local: true
@@ -206,11 +206,11 @@ menu:
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
+        # - identifier: twitter
+        #   name: Twitter
+        #   url: https://twitter.com
+        #   params:
+        #       icon: brand-twitter
 
 related:
     includeNewer: true
