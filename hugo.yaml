@@ -58,7 +58,7 @@ params:
             enabled: true
             local: true
             # src: img/avatar.png
-            src: assets\img\aam.webp
+            src: img/aam.webp
 
     article:
         math: false
